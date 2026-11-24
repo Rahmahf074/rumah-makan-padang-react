@@ -1,54 +1,32 @@
 # Rumah Makan Padang
 
-Website profil dan menu untuk rumah makan Padang, dibangun dengan React.js. Dibuat sebagai tugas akhir mata kuliah Pemrograman Web, Universitas Bengkulu. Dikerjakan secara tim; saya berperan sebagai ketua tim.
+A profile and menu website for a Padang restaurant, built with React.js. Created as a final project for the Web Programming course at Universitas Bengkulu. Developed as a team project, where I served as the team lead.
 
-**Demo:** [ISI: link live demo]
+**Demo:** [https://rahmahf074.github.io/rumah-makan-padang-react/]
 
-![Tampilan beranda](docs/home.png)
+![Home view](docs/home.png)
 
-## Fitur
+## Features
 
-- Halaman satu layar dengan bagian Hero, Tentang, Menu, Galeri, Testimoni, dan Kontak
-- Daftar menu dalam bentuk kartu, dengan data terpisah di `src/data/menuItems.js`
-- Galeri foto dan testimoni pelanggan
-- Formulir kontak
-- Navigasi responsif dengan menu mobile
-- Penanda menu aktif saat halaman di-scroll
+- Single-page layout featuring Hero, About, Menu, Gallery, Testimonials, and Contact sections
+- Card-based menu list with separated data in `src/data/menuItems.js`
+- Photo gallery and customer testimonials
+- Contact form
+- Responsive navigation with a mobile menu
+- Active navigation link highlighting on scroll
 
-> Sesuaikan daftar fitur di atas dengan yang benar-benar ada di aplikasi.
-
-## Teknologi
+## Tech Stack
 
 - React.js (Create React App)
 - CSS
-- GitHub Pages / Vercel untuk deployment
+- GitHub Pages / Vercel for deployment
 
-## Menjalankan di komputer sendiri
+## Running Locally
 
-Prasyarat: Node.js 18 atau lebih baru.
+Prerequisites: Node.js 18 or newer.
 
 ```bash
-git clone https://github.com/Rahmahf074/[ISI: nama-repo-baru].git
-cd [ISI: nama-repo-baru]
+git clone [https://github.com/Rahmahf074/](https://github.com/Rahmahf074/)[FILL: new-repo-name].git
+cd [FILL: new-repo-name]
 npm install
 npm start
-```
-
-Buka `http://localhost:3000`. Untuk build produksi: `npm run build`.
-
-## Struktur folder
-
-```
-src/
-├── components/
-│   ├── layout/     Header, Footer, MobileMenu
-│   ├── sections/   Hero, About, Menu, Gallery, Testimonials, Contact
-│   └── ui/         MenuCard, GalleryItem, TestimonialCard, ContactForm, ContactInfo
-├── data/           menuItems, galleryImages, testimonials
-├── hooks/          useScrollActive
-└── utils/          scrollToSection
-```
-
-## Status
-
-Proyek tugas kuliah (2025). Data menu dan testimoni berupa contoh.
