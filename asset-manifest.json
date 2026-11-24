@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rumah-makan-padang-react/static/css/main.65c2ed88.css",
-    "main.js": "/rumah-makan-padang-react/static/js/main.468f34e8.js",
+    "main.js": "/rumah-makan-padang-react/static/js/main.c5b6a196.js",
     "index.html": "/rumah-makan-padang-react/index.html",
     "main.65c2ed88.css.map": "/rumah-makan-padang-react/static/css/main.65c2ed88.css.map",
-    "main.468f34e8.js.map": "/rumah-makan-padang-react/static/js/main.468f34e8.js.map"
+    "main.c5b6a196.js.map": "/rumah-makan-padang-react/static/js/main.c5b6a196.js.map"
   },
   "entrypoints": [
     "static/css/main.65c2ed88.css",
-    "static/js/main.468f34e8.js"
+    "static/js/main.c5b6a196.js"
   ]
 }
