@@ -2,14 +2,13 @@
   "name": "rumah-makan-padang-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rahmahf074.github.io",
+  "homepage": "https://rahmahf074.github.io/rumah-makan-padang-react",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.5",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.507.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
