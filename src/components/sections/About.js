@@ -11,7 +11,7 @@ const About = () => {
                 className="w-100"
                 style={{
                   height: "400px",
-                  backgroundImage: "url('/assets/Ab.svg')",
+                  backgroundImage: `url('${process.env.PUBLIC_URL}/assets/Ab.svg')`,
                   backgroundSize: "contain",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
