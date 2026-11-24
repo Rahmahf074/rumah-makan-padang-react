@@ -6,7 +6,7 @@ const Hero = ({ scrollToSection }) => {
       id="home"
       className="position-relative vh-100 d-flex align-items-center text-white pt-5"
       style={{
-        backgroundImage: `url('${process.env.PUBLIC_URL}/assets/latar.jpg')`,
+        backgroundImage: `url('/assets/latar.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
